@@ -6,9 +6,9 @@ public class TestNested {
     int x, y, z;
     
     Scanner keyboard = new Scanner(System.in);
-    System.out.print("Insert a value for x");
+    System.out.print("Insert a value for x: ");
     x = keyboard.nextInt();
-    System.out.print("Insert a value for y");
+    System.out.print("Insert a value for y: ");
     y = keyboard.nextInt();
 
     if (x > 0) {
