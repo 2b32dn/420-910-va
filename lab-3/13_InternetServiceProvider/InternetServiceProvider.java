@@ -7,7 +7,7 @@ public class InternetServiceProvider {
     String selection;
     Scanner keyboard = new Scanner(System.in);
 
-    System.out.print("Select a package between a,b and c: ");
+    System.out.print("Select a package between a, b and c: ");
     selection = keyboard.nextLine().toLowerCase();
 
     System.out.print("Enter the number of hours: ");
