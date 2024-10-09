@@ -28,7 +28,7 @@ public class InternetServiceProvider {
       case "b":
   
         if(hours <= 20) {
-          System.out.println(" Your monthly bill is: $13.95");
+          System.out.println("Your monthly bill is: $13.95");
         } else {
           total = (hours - 10) * 2 + 13.95;
           System.out.printf("\n Your monthly bill is: %.2f$" ,total);
@@ -38,7 +38,7 @@ public class InternetServiceProvider {
       case "c":
 
         
-        System.out.printf(" Your monthly bill is $19.95.");
+        System.out.printf("Your monthly bill is $19.95.");
 
         break;
       default:
