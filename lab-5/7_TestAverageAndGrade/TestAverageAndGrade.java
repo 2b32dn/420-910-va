@@ -55,13 +55,13 @@ public class TestAverageAndGrade {
   }
 
   public static void determineGrade(double calcAverage) {
-    if (calcAverage > 90 && calcAverage < 100) {
+    if (calcAverage >= 90 && calcAverage <= 100) {
       System.out.println("Your grade is: A");
-    } else if (calcAverage > 80 && calcAverage < 89) {
+    } else if (calcAverage >= 80 && calcAverage <= 89) {
       System.out.println("Your grade is: B");
-    } else if (calcAverage > 70 && calcAverage < 79) {
+    } else if (calcAverage >= 70 && calcAverage <= 79) {
       System.out.println("Your grade is: C");
-    } else if (calcAverage > 60 && calcAverage < 79) {
+    } else if (calcAverage >= 60 && calcAverage <= 79) {
       System.out.println("Your grade is: D");
     } else {
       System.out.println("Your grade is: F");
