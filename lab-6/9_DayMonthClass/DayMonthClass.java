@@ -4,9 +4,9 @@ class MonthDays {
   private int month;
   private int year;
 
-  public MonthDays(int month, int year) {
-    this.month = month;
+  public MonthDays(int year, int month) {
     this.year = year;
+    this.month = month;
   }
 
   // Setters
